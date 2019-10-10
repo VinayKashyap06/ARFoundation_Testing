@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/AR Demo/Scenes/Main Menu.unity
     guid: 43d25c2ca4e9dfa4ca60b60a59a6196a
-  - enabled: 1
+  - enabled: 0
     path: Assets/AR Demo/Scenes/ImageTracking.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/AR Demo/Scenes/FaceTracking.unity
     guid: a02313e804990b442b8577cde9211df0
+  - enabled: 0
+    path: Assets/AR Demo/Scenes/LocationBasedAR.unity
+    guid: 50a59dda43e1c9b4882cb61f74a08db0
+  - enabled: 1
+    path: Assets/AR Demo/Scenes/TestARScene.unity
+    guid: ceaaa80c08d5f144dbbd08bc76017986
   m_configObjects: {}

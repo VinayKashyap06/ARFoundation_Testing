@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Collider))]
-public class PointsOfInterestView : MonoBehaviour, IPointerDownHandler
+public class PointsOfInterestView : MonoBehaviour
 {
-    public void OnPointerDown(PointerEventData eventData)
+    private void OnMouseDown()
     {
-        
+        Debug.Log("Object clicked");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 }
